@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Indian Laws</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_civil_law">Civil Law</string>
+    <string name="nav_corporate_law">Corporate Law</string>
+    <string name="nav_criminal_law">Criminal Law</string>
+    <string name="nav_about">About</string>
+
+
+</resources>
