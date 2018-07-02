@@ -148,6 +148,10 @@
         "source": "/Users/ilesha/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/e1262cad0a1f8cb566d08a5de504e3eb/res/drawable-v23/abc_control_background_material.xml"
     },
     {
+        "merged": "/Users/ilesha/AndroidStudioProjects/GITHUB SYNC/IndianLaws/IndianLaws/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_justice_two_hands.jpg.flat",
+        "source": "/Users/ilesha/AndroidStudioProjects/GITHUB SYNC/IndianLaws/IndianLaws/app/src/main/res/mipmap-xxhdpi/justice_two_hands.jpg"
+    },
+    {
         "merged": "/Users/ilesha/AndroidStudioProjects/GITHUB SYNC/IndianLaws/IndianLaws/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
         "source": "/Users/ilesha/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/e1262cad0a1f8cb566d08a5de504e3eb/res/drawable-xhdpi-v4/abc_ic_star_half_black_36dp.png"
     },
