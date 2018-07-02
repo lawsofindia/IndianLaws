@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/home"
+        android:title="@string/nav_home" />
+    <item
+        android:id="@+id/nav_civil_law"
+        android:icon="@drawable/civil_law"
+        android:title="@string/nav_civil_law" />
+    <item
+        android:id="@+id/nav_corporate_law"
+        android:icon="@drawable/corporate_law"
+        android:title="@string/nav_corporate_law" />
+    <item
+        android:id="@+id/nav_criminal_law"
+        android:icon="@drawable/criminal_law"
+        android:title="@string/nav_criminal_law" />
+    <item
+        android:id="@+id/nav_about"
+        android:icon="@drawable/info"
+        android:title="@string/nav_about" />
+</menu>
