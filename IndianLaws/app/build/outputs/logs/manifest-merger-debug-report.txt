@@ -1,0 +1,126 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/ilesha/AndroidStudioProjects/GITHUB SYNC/IndianLaws/IndianLaws/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/ilesha/AndroidStudioProjects/GITHUB SYNC/IndianLaws/IndianLaws/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/ilesha/AndroidStudioProjects/GITHUB SYNC/IndianLaws/IndianLaws/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/ilesha/AndroidStudioProjects/GITHUB SYNC/IndianLaws/IndianLaws/app/src/main/AndroidManifest.xml:2:1-30:12
+MERGED from [com.android.support:design:27.1.1] /Users/ilesha/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/b998bd039d0886aeadf7a88f5c1288b1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/ilesha/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/e1262cad0a1f8cb566d08a5de504e3eb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/ilesha/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/149da4555b9cd989921aa2bc7885c883/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v4:27.1.1] /Users/ilesha/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/95cebe82ab002c82d75c1386a4be764d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/ilesha/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/38e599907b73031fbbe1bfed4d88c431/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/ilesha/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/aca6eebf4a26c223ba0d6fdc8275bd3c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/ilesha/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/f49ec11f0e999562559a3f00f141d7e1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/ilesha/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/113daa68a66dd8cecbb5db95634e8272/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/ilesha/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/3949cec0a1aeac53abc025cfc7675aff/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/ilesha/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/10cd27bd72815f7dd8c937c75a98fa2a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] /Users/ilesha/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/7d7fed5538bb8216bd5916aa57c14fde/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/ilesha/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/55a2b18d482e28ec86ebccc430a39eed/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/ilesha/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/0fbdd3bb1ecb317e0f7a24801896a8e9/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/ilesha/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/1bfeda849154dc7f17b534eb0ef2dc48/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/ilesha/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/139bebb8f0796ea378078bf1c36e5e00/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/ilesha/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/ee13f80b3323302e354096f67acf5465/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/ilesha/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/71f859aac07618c24783cfd781c228b4/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/ilesha/AndroidStudioProjects/GITHUB SYNC/IndianLaws/IndianLaws/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/ilesha/AndroidStudioProjects/GITHUB SYNC/IndianLaws/IndianLaws/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /Users/ilesha/AndroidStudioProjects/GITHUB SYNC/IndianLaws/IndianLaws/app/src/main/AndroidManifest.xml:2:1-30:12
+	package
+		ADDED from /Users/ilesha/AndroidStudioProjects/GITHUB SYNC/IndianLaws/IndianLaws/app/src/main/AndroidManifest.xml:3:5-41
+		INJECTED from /Users/ilesha/AndroidStudioProjects/GITHUB SYNC/IndianLaws/IndianLaws/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ilesha/AndroidStudioProjects/GITHUB SYNC/IndianLaws/IndianLaws/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/ilesha/AndroidStudioProjects/GITHUB SYNC/IndianLaws/IndianLaws/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ilesha/AndroidStudioProjects/GITHUB SYNC/IndianLaws/IndianLaws/app/src/main/AndroidManifest.xml:2:1-30:12
+		INJECTED from /Users/ilesha/AndroidStudioProjects/GITHUB SYNC/IndianLaws/IndianLaws/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/ilesha/AndroidStudioProjects/GITHUB SYNC/IndianLaws/IndianLaws/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ilesha/AndroidStudioProjects/GITHUB SYNC/IndianLaws/IndianLaws/app/src/main/AndroidManifest.xml:2:1-30:12
+		INJECTED from /Users/ilesha/AndroidStudioProjects/GITHUB SYNC/IndianLaws/IndianLaws/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/ilesha/AndroidStudioProjects/GITHUB SYNC/IndianLaws/IndianLaws/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/ilesha/AndroidStudioProjects/GITHUB SYNC/IndianLaws/IndianLaws/app/src/main/AndroidManifest.xml:5:5-28:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/ilesha/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/149da4555b9cd989921aa2bc7885c883/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/ilesha/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/149da4555b9cd989921aa2bc7885c883/AndroidManifest.xml:9:5-20
+	android:supportsRtl
+		ADDED from /Users/ilesha/AndroidStudioProjects/GITHUB SYNC/IndianLaws/IndianLaws/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /Users/ilesha/AndroidStudioProjects/GITHUB SYNC/IndianLaws/IndianLaws/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /Users/ilesha/AndroidStudioProjects/GITHUB SYNC/IndianLaws/IndianLaws/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /Users/ilesha/AndroidStudioProjects/GITHUB SYNC/IndianLaws/IndianLaws/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /Users/ilesha/AndroidStudioProjects/GITHUB SYNC/IndianLaws/IndianLaws/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/ilesha/AndroidStudioProjects/GITHUB SYNC/IndianLaws/IndianLaws/app/src/main/AndroidManifest.xml:12:9-40
+activity#com.the3hdmedia.IndianLaws.SplashScreen
+ADDED from /Users/ilesha/AndroidStudioProjects/GITHUB SYNC/IndianLaws/IndianLaws/app/src/main/AndroidManifest.xml:13:9-22:20
+	android:theme
+		ADDED from /Users/ilesha/AndroidStudioProjects/GITHUB SYNC/IndianLaws/IndianLaws/app/src/main/AndroidManifest.xml:16:13-54
+	android:name
+		ADDED from /Users/ilesha/AndroidStudioProjects/GITHUB SYNC/IndianLaws/IndianLaws/app/src/main/AndroidManifest.xml:14:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/ilesha/AndroidStudioProjects/GITHUB SYNC/IndianLaws/IndianLaws/app/src/main/AndroidManifest.xml:17:13-21:29
+action#android.intent.action.MAIN
+ADDED from /Users/ilesha/AndroidStudioProjects/GITHUB SYNC/IndianLaws/IndianLaws/app/src/main/AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from /Users/ilesha/AndroidStudioProjects/GITHUB SYNC/IndianLaws/IndianLaws/app/src/main/AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/ilesha/AndroidStudioProjects/GITHUB SYNC/IndianLaws/IndianLaws/app/src/main/AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from /Users/ilesha/AndroidStudioProjects/GITHUB SYNC/IndianLaws/IndianLaws/app/src/main/AndroidManifest.xml:20:27-74
+activity#com.the3hdmedia.IndianLaws.HomeActivity
+ADDED from /Users/ilesha/AndroidStudioProjects/GITHUB SYNC/IndianLaws/IndianLaws/app/src/main/AndroidManifest.xml:23:9-27:20
+	android:screenOrientation
+		ADDED from /Users/ilesha/AndroidStudioProjects/GITHUB SYNC/IndianLaws/IndianLaws/app/src/main/AndroidManifest.xml:25:13-49
+	android:name
+		ADDED from /Users/ilesha/AndroidStudioProjects/GITHUB SYNC/IndianLaws/IndianLaws/app/src/main/AndroidManifest.xml:23:19-47
+uses-sdk
+INJECTED from /Users/ilesha/AndroidStudioProjects/GITHUB SYNC/IndianLaws/IndianLaws/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/ilesha/AndroidStudioProjects/GITHUB SYNC/IndianLaws/IndianLaws/app/src/main/AndroidManifest.xml
+INJECTED from /Users/ilesha/AndroidStudioProjects/GITHUB SYNC/IndianLaws/IndianLaws/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:27.1.1] /Users/ilesha/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/b998bd039d0886aeadf7a88f5c1288b1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] /Users/ilesha/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/b998bd039d0886aeadf7a88f5c1288b1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/ilesha/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/e1262cad0a1f8cb566d08a5de504e3eb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/ilesha/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/e1262cad0a1f8cb566d08a5de504e3eb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/ilesha/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/149da4555b9cd989921aa2bc7885c883/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/ilesha/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/149da4555b9cd989921aa2bc7885c883/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:27.1.1] /Users/ilesha/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/95cebe82ab002c82d75c1386a4be764d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/ilesha/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/95cebe82ab002c82d75c1386a4be764d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/ilesha/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/38e599907b73031fbbe1bfed4d88c431/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/ilesha/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/38e599907b73031fbbe1bfed4d88c431/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/ilesha/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/aca6eebf4a26c223ba0d6fdc8275bd3c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/ilesha/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/aca6eebf4a26c223ba0d6fdc8275bd3c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/ilesha/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/f49ec11f0e999562559a3f00f141d7e1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/ilesha/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/f49ec11f0e999562559a3f00f141d7e1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/ilesha/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/113daa68a66dd8cecbb5db95634e8272/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/ilesha/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/113daa68a66dd8cecbb5db95634e8272/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/ilesha/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/3949cec0a1aeac53abc025cfc7675aff/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/ilesha/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/3949cec0a1aeac53abc025cfc7675aff/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/ilesha/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/10cd27bd72815f7dd8c937c75a98fa2a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/ilesha/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/10cd27bd72815f7dd8c937c75a98fa2a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/ilesha/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/7d7fed5538bb8216bd5916aa57c14fde/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/ilesha/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/7d7fed5538bb8216bd5916aa57c14fde/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/ilesha/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/55a2b18d482e28ec86ebccc430a39eed/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/ilesha/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/55a2b18d482e28ec86ebccc430a39eed/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/ilesha/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/0fbdd3bb1ecb317e0f7a24801896a8e9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/ilesha/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/0fbdd3bb1ecb317e0f7a24801896a8e9/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/ilesha/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/1bfeda849154dc7f17b534eb0ef2dc48/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/ilesha/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/1bfeda849154dc7f17b534eb0ef2dc48/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/ilesha/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/139bebb8f0796ea378078bf1c36e5e00/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/ilesha/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/139bebb8f0796ea378078bf1c36e5e00/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/ilesha/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/ee13f80b3323302e354096f67acf5465/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/ilesha/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/ee13f80b3323302e354096f67acf5465/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/ilesha/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/71f859aac07618c24783cfd781c228b4/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/ilesha/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/71f859aac07618c24783cfd781c228b4/AndroidManifest.xml:20:5-44
+INJECTED from /Users/ilesha/AndroidStudioProjects/GITHUB SYNC/IndianLaws/IndianLaws/app/src/main/AndroidManifest.xml
+INJECTED from /Users/ilesha/AndroidStudioProjects/GITHUB SYNC/IndianLaws/IndianLaws/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/ilesha/AndroidStudioProjects/GITHUB SYNC/IndianLaws/IndianLaws/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ilesha/AndroidStudioProjects/GITHUB SYNC/IndianLaws/IndianLaws/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ilesha/AndroidStudioProjects/GITHUB SYNC/IndianLaws/IndianLaws/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/ilesha/AndroidStudioProjects/GITHUB SYNC/IndianLaws/IndianLaws/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ilesha/AndroidStudioProjects/GITHUB SYNC/IndianLaws/IndianLaws/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ilesha/AndroidStudioProjects/GITHUB SYNC/IndianLaws/IndianLaws/app/src/main/AndroidManifest.xml
