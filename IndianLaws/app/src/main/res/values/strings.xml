@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Indian Laws</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_civil_law">Civil Law</string>
+    <string name="nav_corporate_law">Corporate Law</string>
+    <string name="nav_criminal_law">Criminal Law</string>
+    <string name="nav_about">About</string>
+    <string-array name="one">
+        <item>1. Title and extent of operation of the Code.</item>
+        <item>This Act shall be called the Indian Penal Code, and shall 3[extend to the whole of India 4[except the State of Jammu and Kashmir]].</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">
+        Law is a system of rules that are created and enforced through social or governmental institutions to regulate behavior.\n\nLaw is a system that regulates and ensures that individuals or a community adhere to the will of the state. \n\nIndia maintains a hybrid legal system with a mixture of civil, common law and customary or religious law within the legal framework.
+</string>
+</resources>
