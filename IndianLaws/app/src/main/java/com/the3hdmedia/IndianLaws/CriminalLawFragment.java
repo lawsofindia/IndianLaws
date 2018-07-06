@@ -92,24 +92,52 @@ public class CriminalLawFragment extends Fragment {
         criminalLaws.add("53A. Construction of reference to transportation.");
         criminalLaws.add("54. Commutation of sentence of death.");
         criminalLaws.add("55. Commutation of sentence of imprisonment for life. ");
-        criminalLaws.add("55A. Definition of appropriate Government".");
+        criminalLaws.add("55A. Definition of appropriate Government");
         criminalLaws.add("56. [Repealed.]  ");
         criminalLaws.add("57. Fractions of terms of punishment.");
         criminalLaws.add("58. [Repealed.] ");
         criminalLaws.add("59. [Repealed.] ");
         criminalLaws.add("60. Sentence may be (in certain cases of imprisonment) wholly or partly rigorous of simple.");
-        criminalLaws.add("61. [Repealed.] );");
+        criminalLaws.add("61. [Repealed.] ");
         criminalLaws.add("62. [Repealed.] ");
-        criminalLaws.add(" 63. Amount of fine.");
-        criminalLaws.add(" 64. Sentence of imprisonment for non-payment of fine.");
+        criminalLaws.add("63. Amount of fine.");
+        criminalLaws.add("64. Sentence of imprisonment for non-payment of fine.");
         criminalLaws.add("65. Limit to imprisonment for non-payment of fine, when imprisonment and fine awardable.");
         criminalLaws.add(" 66. Description of imprisonment for non-payment of fine.");
-        criminalLaws.add(" 67. Imprisonment for non-payment of fine, when offence punishable with fine only. ");
-        criminalLaws.add("68. Imprisonment to terminate on payment of fine. 69. Termination of imprisonment on payment of proportional part of fine.");
-        criminalLaws.add("");
-        criminalLaws.add("");
-        criminalLaws.add("");
-        criminalLaws.add("");
+        criminalLaws.add("67. Imprisonment for non-payment of fine, when offence punishable with fine only. ");
+        criminalLaws.add("68. Imprisonment to terminate on payment of fine. ");
+        criminalLaws.add("69. Termination of imprisonment on payment of proportional part of fine.");
+        criminalLaws.add("70. Fine leviable within six years, of during imprisonment. Death not to discharge property from liability. ");
+        criminalLaws.add("71. Limit of punishment of offence made up of several offences. ");
+        criminalLaws.add("72. Punishment of person guilty of one of several offences, the judgment stating that is doubtful of which. 73. Solitary confinement. 74. Limit of solitary confinement. ");
+        criminalLaws.add("73. Solitary confinement. 74. Limit of solitary confinement. ");
+        criminalLaws.add("74. Limit of solitary confinement.");
+        criminalLaws.add("75. Enhanced punishment for certain offences under Chapter XII or Chapter XVII after previous conviction.");
+        criminalLaws.add("76. Act done by a person bound, or by mistake of fact believing himself bound, by law.");
+        criminalLaws.add("77. Act of Judge when acting judicially.");
+        criminalLaws.add("78. Act done pursuant to the judgment or order of Court.");
+        criminalLaws.add("79. Act done by a person justified, or by mistake of fact believing himself justified, by law.");
+        criminalLaws.add("80. Accident in doing a lawful act.");
+        criminalLaws.add("81. Act likely to cause harm, but done without criminal intent, and to prevent other harm.");
+        criminalLaws.add("82. Act of a child under seven years of age.");
+        criminalLaws.add("83. Act of a child above seven and under twelve of immature understanding.");
+        criminalLaws.add("84. Act of a person of unsound mind.");
+        criminalLaws.add("85. Act of a person incapable of judgment by reason of intoxication caused against his will.");
+        criminalLaws.add("86. Offence requiring a particular intent or knowledge committed by one who is intoxicated.");
+        criminalLaws.add("87. Act not intended and not known to be likely to cause death or grievous hurt, done by consent.");
+        criminalLaws.add("88. Act not intended to cause death, done by consent in good faith for person's benefit.");
+        criminalLaws.add("89. Act done in good faith for benefit of child or insane person, by or by consent of guardian."+" Provisos." );
+        criminalLaws.add("90. Consent known to be given under fear or misconception."+"\nConsent of insane person."+"\nConsent of child.");
+        criminalLaws.add("91. Exclusion of acts which are offences independently of harm caused.");
+        criminalLaws.add("92. Act done in good faith for benefit of a person without consent.");
+        criminalLaws.add("93. Communication made in good faith.");
+        criminalLaws.add("94. Act to which a person is compelled by threats.");
+         criminalLaws.add("95. Act causing slight harm.");
+        criminalLaws.add(" 96. Things done in private defence.");
+        criminalLaws.add("97. Right of private defence of the body and of property.");
+        criminalLaws.add("98. Right of private defence against the act of a person of unsound mind. etc.");
+        criminalLaws.add(" 99. Acts against which there is no right of private defence.\n\t Extent to which the right may be exercised.");
+        criminalLaws.add(" 100.When the right of private defence of the body extends to causing death.");
         criminalLaws.add("");
 
 
@@ -717,8 +745,255 @@ public class CriminalLawFragment extends Fragment {
                                 }
                             });
                 }
+                if (position ==50 ) {
+                    alertBuilder.setMessage("The word “oath” includes a solemn affirmation substituted by law for an oath, and any declaration required or authorised by law to be made before a public servant or to be used for the purpose of proof, whether in a Court of Justice or not.")
+
+                            .setCancelable(false)
+                            .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialog, int which) {
+                                    dialog.cancel();
+                                }
+                            });
+                }
+                if (position ==51 ) {
+                    alertBuilder.setMessage("Nothing is said to be done or believed in “good faith” which is done or believed without due care and attention.")
+
+                            .setCancelable(false)
+                            .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialog, int which) {
+                                    dialog.cancel();
+                                }
+                            });
+                }
+                if (position ==52 ) {
+                    alertBuilder.setMessage("“Harbour”.—Except in section 157, and in section 130 in the case in which the harbour is\n" +
+                            "given by the wife or husband of the person harboured, the word “harbour” includes the supplying a person\n" +
+                            "with shelter, food, drink, money, clothes, arms, ammunition or means of conveyance, or the assisting a\n" +
+                            "person by any means, whether of the same kind as those enumerated in this section or not, to evade\n" +
+                            "apprehension.]")
+                            .setCancelable(false)
+                            .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialog, int which) {
+                                    dialog.cancel();
+                                }
+                            });
+                }
+                if (position ==53 ) {
+                    alertBuilder.setMessage(" Punishments.—The punishments to which offenders are liable under the provisions of this Code are --\n"
+                                                         " First.—Death;\n\" +\n" +
+                                                          "2\n\n[Secondly.—Imprisonment for life;]\n"+"3 \t*  *  *  *  * \n\n "
+                                                        + "Fourthly.—Imprisonment, which is of two descriptions, namely:—\n"+
+                                                       "(1) Rigorous, that is, with hard labour\t" +
+                                                        "(2) Simple;\n\n" +
+                                                        "Fifthly.—Forfeiture of property;\n" +
+                                                        "Sixthly.—Fine.\n\n\n")
+                            .setCancelable(false)
+                            .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialog, int which) {
+                                    dialog.cancel();
+                                }
+                            });
+                }
+                if (position == 54) {
+                    alertBuilder.setMessage("[53A. Construction of reference to transportation.—(1) Subject to the provisions of\n" +
+                            "sub-section (2) and sub-section (3), any reference to “transportation for life” in any other law for the time\n" +
+                            "being in force or in any instrument or order having effect by virtue of any such law or of any enactment\n" +
+                            "repealed shall be construed as a reference to “imprisonment for life”.\n" +
+                            "(2) In every case in which a sentence of transportation for a term has been passed before the\n" +
+                            "commencement of the Code of Criminal Procedure (Amendment) Act, 5\n" +
+                            "\n" +
+                            "[1955 (26 of 1955)], the offender\n" +
+                            "shall be dealt with in the same manner as if sentenced to rigorous imprisonment for the same term.\n" +
+                            "(3) Any reference to transportation for a term or to transportation for any shorter term (by whatever\n" +
+                            "name called) in any other law for the time being in force shall be deemed to have been omitted.\n" +
+                            "(4) Any reference to “transportation” in any other law for the time being in force shall,—\n" +
+                            "(a) if the expression means transportation for life, be construed as a reference to imprisonment for\n" +
+                            "life;\n" +
+                            "(b) if the expression means transportation for any shorter term, be deemed to have been omitted.]")
+                                    .setCancelable(false)
+                            .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialog, int which) {
+                                    dialog.cancel();
+                                }
+                            });
+                }if (position ==55) {
+                    alertBuilder.setMessage("In every case in which sentence of death shall have been\n" +
+                            "passed, 6\n" +
+                            "[the appropriate Government] may, without the consent of the offender, commute the punishment\n" +
+                            "punishment for any other punishment provided by this Code.")
+
+                            .setCancelable(false)
+                            .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialog, int which) {
+                                    dialog.cancel();
+                                }
+                            });
+                }if (position == 56) {
+                    alertBuilder.setMessage("In every case in which sentence of  [imprisonment] for life shall have been passed, [the appropriate Government] may, without the consent consent of the offender, commute the punishment for imprisonment of either description for a term not exceeding fourteen years.")
+
+                            .setCancelable(false)
+                            .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialog, int which) {
+                                    dialog.cancel();
+                                }
+                            });
+                }if (position == 57) {
+                    alertBuilder.setMessage("Government”.—In sections fifty-four and fifty-five the\n" +
+                            "expression “appropriate Government” means,—\n" +
+                            "(a) in cases where the sentence is a sentence of death or is for an offence against any law relating\n" +
+                            "to a matter to which the executive power of the Union extends, the Central Government; and\n" +
+                            "(b) in cases where the sentence (whether of death or not) is for an offence against any law relating\n" +
+                            "to a matter to which the executive power of the State extends, the Government of the State within\n" +
+                            "which the offender is sentenced.]")
+
+                            .setCancelable(false)
+                            .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialog, int which) {
+                                    dialog.cancel();
+                                }
+                            });
+                }
+                if (position ==58 ) {
+                    alertBuilder.setMessage("[Sentence of Europeans and Americans to penal servitude. Proviso as to sentence for term\n" +
+                            "exceeding ten years but not for life.] Rep. by the Criminal Law (Removal of Racial Discriminations) Act,\n" +
+                            "1949 (17 of 1949) (w. e. f. 6-4-1949).")
+
+                            .setCancelable(false)
+                            .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialog, int which) {
+                                    dialog.cancel();
+                                }
+                            });
+                }
+                if (position ==59 ) {
+                    alertBuilder.setMessage("In calculating fractions of terms of punishment,[imprisonment] for life shall be reckoned as equivalent to [imprisonment] for twenty years.")
+
+                            .setCancelable(false)
+                            .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialog, int which) {
+                                    dialog.cancel();
+                                }
+                            });
+                }
+                if (position ==60 ) {
+                    alertBuilder.setMessage(" [Transportation instead of imprisonment.] Rep. by s.117 and the Sch., ibid. (w.e.f. 1-1-1956).")
+
+                            .setCancelable(false)
+                            .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialog, int which) {
+                                    dialog.cancel();
+                                }
+                            });
+                }
+                if (position == 61) {
+                    alertBuilder.setMessage("In every case in which an offender is punishable with imprisonment which may be of either description, it\n" +
+                            "shall be competent to the Court which sentences such offender to direct in the sentence that such\n" +
+                            "imprisonment shall be wholly rigorous, or that such imprisonment shall be wholly simple, or that any part\n" +
+                            "of such imprisonment shall be rigorous and the rest simple.")
+
+                            .setCancelable(false)
+                            .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialog, int which) {
+                                    dialog.cancel();
+                                }
+                            });
+                }
+                if (position == 62) {
+                    alertBuilder.setMessage("")
+
+                            .setCancelable(false)
+                            .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialog, int which) {
+                                    dialog.cancel();
+                                }
+                            });
+                }
+                if (position == ) {
+                    alertBuilder.setMessage("")
+
+                            .setCancelable(false)
+                            .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialog, int which) {
+                                    dialog.cancel();
+                                }
+                            });
+                }
 
 
+
+
+
+
+
+                if (position == ) {
+                    alertBuilder.setMessage("")
+
+                            .setCancelable(false)
+                            .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialog, int which) {
+                                    dialog.cancel();
+                                }
+                            });
+                }
+                if (position == ) {
+                    alertBuilder.setMessage("")
+
+                            .setCancelable(false)
+                            .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialog, int which) {
+                                    dialog.cancel();
+                                }
+                            });
+                }
+                if (position == ) {
+                    alertBuilder.setMessage("")
+
+                            .setCancelable(false)
+                            .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialog, int which) {
+                                    dialog.cancel();
+                                }
+                            });
+                }
+                if (position == ) {
+                    alertBuilder.setMessage("")
+
+                            .setCancelable(false)
+                            .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialog, int which) {
+                                    dialog.cancel();
+                                }
+                            });
+                }
+                if (position == ) {
+                    alertBuilder.setMessage("")
+
+                            .setCancelable(false)
+                            .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialog, int which) {
+                                    dialog.cancel();
+                                }
+                            });
+                }
                 AlertDialog alert = alertBuilder.create();
                 alert.setTitle(criminalLaws.get(position));
                 alert.show();
