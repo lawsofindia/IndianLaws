@@ -85,6 +85,36 @@ public class CriminalLawFragment extends Fragment {
         criminalLaws.add("48. “Vessel”");
         criminalLaws.add("49. “Year”. “Month”.");
         criminalLaws.add("50. “Section”");
+        criminalLaws.add("51.“Oath”");
+        criminalLaws.add("52. “Good faith”");
+        criminalLaws.add("52A. “Harbour-“");
+        criminalLaws.add("53. Punishments.");
+        criminalLaws.add("53A. Construction of reference to transportation.");
+        criminalLaws.add("54. Commutation of sentence of death.");
+        criminalLaws.add("55. Commutation of sentence of imprisonment for life. ");
+        criminalLaws.add("55A. Definition of appropriate Government".");
+        criminalLaws.add("56. [Repealed.]  ");
+        criminalLaws.add("57. Fractions of terms of punishment.");
+        criminalLaws.add("58. [Repealed.] ");
+        criminalLaws.add("59. [Repealed.] ");
+        criminalLaws.add("60. Sentence may be (in certain cases of imprisonment) wholly or partly rigorous of simple.");
+        criminalLaws.add("61. [Repealed.] );");
+        criminalLaws.add("62. [Repealed.] ");
+        criminalLaws.add(" 63. Amount of fine.");
+        criminalLaws.add(" 64. Sentence of imprisonment for non-payment of fine.");
+        criminalLaws.add("65. Limit to imprisonment for non-payment of fine, when imprisonment and fine awardable.");
+        criminalLaws.add(" 66. Description of imprisonment for non-payment of fine.");
+        criminalLaws.add(" 67. Imprisonment for non-payment of fine, when offence punishable with fine only. ");
+        criminalLaws.add("68. Imprisonment to terminate on payment of fine. 69. Termination of imprisonment on payment of proportional part of fine.");
+        criminalLaws.add("");
+        criminalLaws.add("");
+        criminalLaws.add("");
+        criminalLaws.add("");
+        criminalLaws.add("");
+
+
+
+
         final ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(v.getContext(), android.R.layout.simple_list_item_1, criminalLaws);
         listView.setAdapter(arrayAdapter);
 

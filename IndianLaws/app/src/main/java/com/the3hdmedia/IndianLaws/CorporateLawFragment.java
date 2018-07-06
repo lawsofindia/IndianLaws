@@ -39,28 +39,39 @@ public class CorporateLawFragment extends Fragment {
 
         ListView listView = (ListView)v.findViewById(R.id.listview_corporateLaw);
 
-        corporateLaw.add("The Companies Act, 1956");
-        corporateLaw.add("Companies (Foreign Interests) Act, 1918");
-        corporateLaw.add("Company Law Board Regulations, 1991");
-        corporateLaw.add("The Companies (Amendment) Act, 2006");
-        corporateLaw.add("The Company Secretaries Act, 1980");
-        corporateLaw.add("The Companies (Donations to National Funds) Act, 1951");
-        corporateLaw.add("The Depositories Act, 1996");
-        corporateLaw.add("The Foreign Trade (Development and Regulation) Act, 1992");
-        corporateLaw.add("The Hire-Purchase Act, 1972");
-        corporateLaw.add("Indian Contract Act, 1872");
-        corporateLaw.add("The National Securities And Depositories Limited – Byelaws, 1996");
-        corporateLaw.add("The Prevention of Money-Laundering Bill, 1999");
-        corporateLaw.add("Prevention of Money Laundering Act, 2002");
-        corporateLaw.add("Prevention of Money-Laundering (Amendment) Act, 2005");
-        corporateLaw.add("The Partnership Act, 1932");
-        corporateLaw.add("The Securities Contract (Regulation) Act, 1956");
-        corporateLaw.add("The Sick Industrial Companies Act, 1985");
-        corporateLaw.add("The Sale of Goods Act, 1930");
-        corporateLaw.add("The Swadeshi Cotton Mills Company Limited (Acquisition and Transfer of Undertakings) Act, 1986");
-        corporateLaw.add("The Tea Act, 1953");
-        corporateLaw.add("The State Financial Corporation Act, 1951");
-        corporateLaw.add("The State Financial Corporations (Amendment) Act, 2000");
+        corporateLaw.add("1. The Companies Act, 1956");
+        corporateLaw.add("2. Companies (Foreign Interests) Act, 1918");
+        corporateLaw.add("3. Company Law Board Regulations, 1991");
+        corporateLaw.add("4. The Companies (Amendment) Act, 2006");
+        corporateLaw.add("5. The Company Secretaries Act, 1980");
+        corporateLaw.add("6. The Companies (Donations to National Funds) Act, 1951");
+        corporateLaw.add("7. The Depositories Act, 1996");
+        corporateLaw.add("8. The Foreign Trade (Development and Regulation) Act, 1992");
+        corporateLaw.add("9. The Hire-Purchase Act, 1972");
+        corporateLaw.add("10. Indian Contract Act, 1872");
+        corporateLaw.add("11. The National Securities And Depositories Limited – Byelaws, 1996");
+        corporateLaw.add("12. The Prevention of Money-Laundering Bill, 1999");
+        corporateLaw.add("13. Prevention of Money Laundering Act, 2002");
+        corporateLaw.add("14. Prevention of Money-Laundering (Amendment) Act, 2005");
+        corporateLaw.add("15. The Partnership Act, 1932");
+        corporateLaw.add("16. The Securities Contract (Regulation) Act, 1956");
+        corporateLaw.add("17. The Sick Industrial Companies Act, 1985");
+        corporateLaw.add("18. The Sale of Goods Act, 1930");
+        corporateLaw.add("19. The Swadeshi Cotton Mills Company Limited (Acquisition and Transfer of Undertakings) Act, 1986");
+        corporateLaw.add("20. The Tea Act, 1953");
+        corporateLaw.add("21. The State Financial Corporation Act, 1951");
+        corporateLaw.add("22. The State Financial Corporations (Amendment) Act, 2000");
+        corporateLaw.add("23. Special Economic Zones Act, 2005");
+        corporateLaw.add("24. The Tea Companies (Acquisition and Transfer of Sick Tea Units) Act, 1985:");
+        corporateLaw.add("25. Tyre-Corporation-of-India-Limited-(Disinvestment-of-Ownership)-Act-2007");
+        corporateLaw.add("26. The Securities and Exchange Board of India Act, 1992");
+        corporateLaw.add("27. Securities and Insurance Laws (Amendment and Validation) Act, 2010");
+        corporateLaw.add("28. Securities Contracts (Regulation) Amendment Act, 2007");
+        corporateLaw.add("29. Securities Laws (Amendment) Act, 2004");
+        corporateLaw.add("30. Securitization and Reconstruction of Financial Assets and Enforcement of Security Interest Act, 2002");
+        corporateLaw.add("31. The Rubber Act, 1947");
+        corporateLaw.add("32. The Faridabad Development Corporation Act, 1956");
+
 
         final ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(v.getContext(), android.R.layout.simple_list_item_1, corporateLaw);
 
@@ -342,8 +353,22 @@ public class CorporateLawFragment extends Fragment {
                             });
 
                 }
-
                 if (position == 17) {
+                    alertBuilder.setMessage(" An act to define and amend the law relating to the sale of goods and it defines and amends the law relating to the sale of goods. The act was introduced on 15th March 1930.")
+                            .setCancelable(false)
+                            .setNegativeButton("OK", new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialog, int which) {
+                                    dialog.cancel();
+
+                                }
+
+
+                            });
+
+                }
+
+                if (position == 18) {
                     alertBuilder.setMessage(" An act to provide for the acquisition and transfer of certain textile undertakings of the Swadeshi Cotton Mills Company Limited, with a view to securing the proper management of such undertakings so as to subserve the interests of the general public by ensuring the continued manufacture, production and distribution of different varieties of cloth and yarn. The act was introduced on 30th May 1986.")
 
                             .setCancelable(false)
@@ -359,7 +384,7 @@ public class CorporateLawFragment extends Fragment {
 
                 }
 
-                if (position == 18) {
+                if (position == 19) {
                     alertBuilder.setMessage("An act to provide for the control by the Union of the tea industry, including the control, in pursuance of the International Agreement now in force, of the cultivation of tea in, and of the export of tea from, India and for that purpose to establish a Tea Board and Levy a duty of excise on tea produced in India. The act was introduced on 28th May 1953.")
 
                             .setCancelable(false)
@@ -375,7 +400,7 @@ public class CorporateLawFragment extends Fragment {
 
                 }
 
-                if (position == 19) {
+                if (position == 20) {
                     alertBuilder.setMessage("An act to provide for the establishment of State Financial Corporations. The act was introduced on 31st October, 1951.")
 
                             .setCancelable(false)
@@ -390,6 +415,166 @@ public class CorporateLawFragment extends Fragment {
                             });
 
                 }
+                if (position == 21) {
+                    alertBuilder.setMessage("An act further to amend the State Financial Corporations Act, 1951. The act was introduced on 5th September, 2000.")
+                            .setCancelable(false)
+                            .setNegativeButton("OK", new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialog, int which) {
+                                    dialog.cancel();
+
+                                }
+
+
+                            });
+
+                }
+                if (position == 22) {
+                    alertBuilder.setMessage("An act to provide for the establishment, development and management of the Special Economic Zones for the promotion of exports. The act was introduced on 23rd June 2005..")
+
+                            .setCancelable(false)
+                            .setNegativeButton("OK", new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialog, int which) {
+                                    dialog.cancel();
+
+                                }
+
+
+                            });
+
+                }if (position == 23) {
+                    alertBuilder.setMessage(" An Act to provide for the acquisition and transfer of the sick tea units specified in the First Schedule and the right, title and interest of the tea companies in respect of the said tea units with a view to securing proper reorganization and management of such tea units so as to subserve the interests of the general public by augmenting the production and manufacture of different varieties of tea which are essential to the needs of the economy of the country. The act was introduced on 28th May 1985.")
+
+                            .setCancelable(false)
+                            .setNegativeButton("OK", new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialog, int which) {
+                                    dialog.cancel();
+
+                                }
+
+
+                            });
+
+                }if (position ==24 ) {
+                    alertBuilder.setMessage("An Act to provide for disinvestment of Government’s equity in the Tyre Corporation of India Limited. The act was introduced on 12th December, 2007.")
+
+                            .setCancelable(false)
+                            .setNegativeButton("OK", new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialog, int which) {
+                                    dialog.cancel();
+
+                                }
+
+
+                            });
+
+
+                }if (position == 25) {
+                    alertBuilder.setMessage("An act to provide for the establishment of a Board to protect the interests of investors in securities and to promote the development of, and to regulate, the securities market. The act was introduced on 4 April 1992.")
+
+                            .setCancelable(false)
+                            .setNegativeButton("OK", new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialog, int which) {
+                                    dialog.cancel();
+
+                                }
+
+
+                            });
+
+                }
+
+                if (position ==26 ) {
+                    alertBuilder.setMessage(" An act further to amend the Reserve Bank of India Act, 1934, the Insurance Act, 1938, the Securities Contracts (Regulation) Act, 1956 and the Securities and Exchange Board of India Act, 1992. The act was introduced on 20th August 2010.")
+
+                            .setCancelable(false)
+                            .setNegativeButton("OK", new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialog, int which) {
+                                    dialog.cancel();
+
+                                }
+
+
+                            });
+
+                }if (position ==27 ) {
+                    alertBuilder.setMessage("An act further to amend the Securities Contracts (Regulation) Act, 1956. The act was introduced on 28th May 2007.")
+
+                            .setCancelable(false)
+                            .setNegativeButton("OK", new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialog, int which) {
+                                    dialog.cancel();
+
+                                }
+
+
+                            });
+
+                }if (position ==28 ) {
+                    alertBuilder.setMessage("An act further to amend the Securities Contracts (Regulation) Act, 1956 and the Depositories Act, 1996. The act was introduced on 6th January 2005.")
+
+                            .setCancelable(false)
+                            .setNegativeButton("OK", new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialog, int which) {
+                                    dialog.cancel();
+
+                                }
+
+
+                            });
+
+                }if (position == 29) {
+                    alertBuilder.setMessage(" An Act to regulate securitization and reconstruction of financial assets and enforcement of security interest. The act was introduced on 21st June 2002.")
+
+                            .setCancelable(false)
+                            .setNegativeButton("OK", new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialog, int which) {
+                                    dialog.cancel();
+
+                                }
+
+
+                            });
+
+                }if (position ==30 ) {
+                    alertBuilder.setMessage("An act to provide for the development 2[under the control of the Union] of the rubber industry. The act was introduced on 18th April 1947.\n" +)
+
+                            .setCancelable(false)
+                            .setNegativeButton("OK", new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialog, int which) {
+                                    dialog.cancel();
+
+                                }
+
+
+                            });
+
+                }if (position == 31) {
+                    alertBuilder.setMessage("An Act to provide for the establishment and regulation of a trading Corporation for the purpose of carrying on and promoting trade and industry in the town of Faridabad, assisting in the rehabilitation of displaced persons settled therein. The act was introduced on 28th December 1956.")
+
+                            .setCancelable(false)
+                            .setNegativeButton("OK", new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialog, int which) {
+                                    dialog.cancel();
+
+                                }
+
+
+                            });
+
+                }
+
+
                 AlertDialog alert = alertBuilder.create();
                     alert.setTitle(corporateLaw.get(position));
                     alert.show();
