@@ -782,14 +782,7 @@ public class CriminalLawFragment extends Fragment {
                             });
                 }
                 if (position ==53 ) {
-                    alertBuilder.setMessage(" Punishments.—The punishments to which offenders are liable under the provisions of this Code are --\n"
-                                                         " First.—Death;\n\" +\n" +
-                                                          "2\n\n[Secondly.—Imprisonment for life;]\n"+"3 \t*  *  *  *  * \n\n "
-                                                        + "Fourthly.—Imprisonment, which is of two descriptions, namely:—\n"+
-                                                       "(1) Rigorous, that is, with hard labour\t" +
-                                                        "(2) Simple;\n\n" +
-                                                        "Fifthly.—Forfeiture of property;\n" +
-                                                        "Sixthly.—Fine.\n\n\n")
+                    alertBuilder.setMessage(" Punishments.—The punishments to which offenders are liable under the provisions of this Code are --\n First.—Death;\n\n\n[Secondly.—Imprisonment for life;]\n"+"3 \t*  *  *  *  * \n\n Fourthly.—Imprisonment, which is of two descriptions, namely:—\n (1) Rigorous, that is, with hard labour \t (2) Simple;\n\n Fifthly.—Forfeiture of property;\n Sixthly.—Fine.\n\n\n")
                             .setCancelable(false)
                             .setPositiveButton("OK", new DialogInterface.OnClickListener() {
                                 @Override
@@ -886,6 +879,16 @@ public class CriminalLawFragment extends Fragment {
                             });
                 }
                 if (position ==60 ) {
+                    alertBuilder.setMessage("[Offenders sentenced to transportation how dealt with until transported.] Rep. by the Code of Criminal Procedure (Amendment) Act, 1955 (26 of 1955), s. 117 and the Sch. (w.e.f. 1-1-1956).")
+                            .setCancelable(false)
+                            .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialog, int which) {
+                                    dialog.cancel();
+                                }
+                            });
+                }
+                if (position ==61 ) {
                     alertBuilder.setMessage(" [Transportation instead of imprisonment.] Rep. by s.117 and the Sch., ibid. (w.e.f. 1-1-1956).")
 
                             .setCancelable(false)
@@ -896,7 +899,7 @@ public class CriminalLawFragment extends Fragment {
                                 }
                             });
                 }
-                if (position == 61) {
+                if (position == 62) {
                     alertBuilder.setMessage("In every case in which an offender is punishable with imprisonment which may be of either description, it\n" +
                             "shall be competent to the Court which sentences such offender to direct in the sentence that such\n" +
                             "imprisonment shall be wholly rigorous, or that such imprisonment shall be wholly simple, or that any part\n" +
@@ -910,7 +913,51 @@ public class CriminalLawFragment extends Fragment {
                                 }
                             });
                 }
-                if (position == 62) {
+                if (position == 63) {
+                    alertBuilder.setMessage("[Sentence of forfeiture of property.] Rep. by the Indian Penal Code (Amendment) Act, 1921\n" +
+                            "(16 of 1921), s. \n" )
+                             .setCancelable(false)
+                            .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialog, int which) {
+                                    dialog.cancel();
+                                }
+                            });
+                }
+                if (position == 64) {
+                    alertBuilder.setMessage(" 62. [Forfeiture of property, in respect of offenders punishable with death, transportation or imprisonment.] Rep. by s. 4 ibid.")
+                            .setCancelable(false)
+                            .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialog, int which) {
+                                    dialog.cancel();
+                                }
+                            });
+                }
+
+
+                if (position ==65 ) {
+                    alertBuilder.setMessage("63. Amount of fine.—Where no sum is expressed to which a fine may extend, the amount of fine to which the offender is liable is unlimited, but shall not be excessive.")
+                            .setCancelable(false)
+                            .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialog, int which) {
+                                    dialog.cancel();
+                                }
+                            });
+                }
+                if (position ==66 ) {
+                    alertBuilder.setMessage("[In every case of an offence punishable with imprisonment as well as fine, in which the offender is sentenced to a fine, whether with or without imprisonment,and in every case of an offence punishable [with imprisonment or fine, or] with fine only, in which the offender is sentenced to a fine.] it shall be competent to the Court which sentences such offender to direct by the sentence that, in default of payment of the fine, the offender shall suffer imprisonment for a certain term, which imprisonment shall be in excess of any other imprisonment to which he may have been sentenced or to which he may be liable under a commutation of a sentence.")
+
+                            .setCancelable(false)
+                            .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialog, int which) {
+                                    dialog.cancel();
+                                }
+                            });
+                }
+                if (position ==67 ) {
                     alertBuilder.setMessage("")
 
                             .setCancelable(false)
@@ -921,7 +968,7 @@ public class CriminalLawFragment extends Fragment {
                                 }
                             });
                 }
-                if (position == ) {
+                if (position ==68 ) {
                     alertBuilder.setMessage("")
 
                             .setCancelable(false)
@@ -932,58 +979,7 @@ public class CriminalLawFragment extends Fragment {
                                 }
                             });
                 }
-
-
-
-
-
-
-
-                if (position == ) {
-                    alertBuilder.setMessage("")
-
-                            .setCancelable(false)
-                            .setPositiveButton("OK", new DialogInterface.OnClickListener() {
-                                @Override
-                                public void onClick(DialogInterface dialog, int which) {
-                                    dialog.cancel();
-                                }
-                            });
-                }
-                if (position == ) {
-                    alertBuilder.setMessage("")
-
-                            .setCancelable(false)
-                            .setPositiveButton("OK", new DialogInterface.OnClickListener() {
-                                @Override
-                                public void onClick(DialogInterface dialog, int which) {
-                                    dialog.cancel();
-                                }
-                            });
-                }
-                if (position == ) {
-                    alertBuilder.setMessage("")
-
-                            .setCancelable(false)
-                            .setPositiveButton("OK", new DialogInterface.OnClickListener() {
-                                @Override
-                                public void onClick(DialogInterface dialog, int which) {
-                                    dialog.cancel();
-                                }
-                            });
-                }
-                if (position == ) {
-                    alertBuilder.setMessage("")
-
-                            .setCancelable(false)
-                            .setPositiveButton("OK", new DialogInterface.OnClickListener() {
-                                @Override
-                                public void onClick(DialogInterface dialog, int which) {
-                                    dialog.cancel();
-                                }
-                            });
-                }
-                if (position == ) {
+                if (position == 69) {
                     alertBuilder.setMessage("")
 
                             .setCancelable(false)

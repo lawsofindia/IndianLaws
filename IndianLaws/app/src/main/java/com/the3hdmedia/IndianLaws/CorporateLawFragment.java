@@ -545,7 +545,7 @@ public class CorporateLawFragment extends Fragment {
                             });
 
                 }if (position ==30 ) {
-                    alertBuilder.setMessage("An act to provide for the development 2[under the control of the Union] of the rubber industry. The act was introduced on 18th April 1947.\n" +)
+                    alertBuilder.setMessage("An act to provide for the development 2[under the control of the Union] of the rubber industry. The act was introduced on 18th April 1947.\n" )
 
                             .setCancelable(false)
                             .setNegativeButton("OK", new DialogInterface.OnClickListener() {
